@@ -1,0 +1,4 @@
+baseURL = 'https://blog.vicentecser.xyz/'
+languageCode = 'es-cl'
+title = 'Mi blog personal'
+theme = 'ananke'
