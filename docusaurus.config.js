@@ -22,6 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vcser', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -69,21 +70,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Vicente Cser\'s Blog',
+        title: 'Vicente Cser\'s Blog 💻🐁',
         logo: {
           alt: 'My Site Logo',
           src: 'https://avatars.githubusercontent.com/u/74830557?v=4',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/projects', label: 'Proyectos', position: 'left'},
+          {to: 'https://vcser.github.io', label: 'Sobre mi', position: 'left'},
           {
             href: 'https://github.com/vcser',
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: 'localeDropdown',
-          },
+          // {
+          //   type: 'localeDropdown',
+          // },
         ],
       },
       footer: {
