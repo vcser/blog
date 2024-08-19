@@ -1,7 +1,6 @@
 ---
-title: Hola Mundo!
-enableComments: true
-slug: holamundo
+title: Test desde decapCMS
+slug: decapcmstest
 tags:
   - test
 authors:
@@ -10,5 +9,10 @@ authors:
     url: https://www.vicentecser.xyz
     imageUrl: https://avatars.githubusercontent.com/u/74830557?v=4
 ---
+probando probando
 
-Lorem ipsum.
+<!-- truncate -->
+
+Editando frontmatter desde decapcms
+
+eu confio
