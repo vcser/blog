@@ -11,6 +11,8 @@ authors:
 ---
 probando probando
 
+<!-- truncate -->
+
 Editando frontmatter desde decapcms
 
 eu confio
