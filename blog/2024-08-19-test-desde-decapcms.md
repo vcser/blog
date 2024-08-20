@@ -4,6 +4,7 @@ slug: decapcmstest
 tags:
   - test
 authors: vcser
+enableComments: true
 ---
 probando probando
 
