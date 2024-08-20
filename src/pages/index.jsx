@@ -1,14 +1,13 @@
 import React from 'react';
-import Layout from '@theme/Layout';
+import './styles.css'
 
 export default function MyReactPage() {
     return (
         <>
-            <nav id="navbar" className='fixed top-0 left-0'>
+            <nav id="navbar">
                 <a href="#hero">About</a>
                 <a href="#projects">Projects</a>
                 <a href="https://vcser.github.io/blog">Blog</a>
-                <a href="https://vcser.github.io/startpage">Startpage</a>
                 <a href="#contact">Contact</a>
             </nav>
             <main>
