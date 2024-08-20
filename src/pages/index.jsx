@@ -1,15 +1,10 @@
 import React from 'react';
+import Layout from '@theme/Layout';
 import './styles.css'
 
 export default function MyReactPage() {
     return (
-        <>
-            <nav id="navbar">
-                <a href="#hero">About</a>
-                <a href="#projects">Projects</a>
-                <a href="/blog" onClick={(e) => {e.preventDefault(); window.location.href += "blog"}}>Blog</a>
-                <a href="#contact">Contact</a>
-            </nav>
+        <Layout>
             <main>
                 <section id="welcome-section">
                     <h1>Hello I am Vicente Cser</h1>
@@ -50,6 +45,6 @@ export default function MyReactPage() {
                     </div>
                 </section>
             </main>
-        </>
+        </Layout>
     );
 }
