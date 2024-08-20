@@ -12,23 +12,6 @@ site_url: https://vcser.github.io/blog
 locale: "es"
 
 collections:
-- name: authors
-  label: "Autores"
-  files:
-    - label: "Autores"
-      name: "authors"
-      file: "blog/authors.yml"
-      fields:
-        - label: "Autores"
-          name: "authors"
-          widget: list
-          fields:
-            - {label: Nombre, name: name, widget: string}
-            - {label: Titulo, name: title, widget: string}
-            - {label: URL, name: url, widget: string}
-            - {label: "img URL", name: image_url, widget: string}
-            - {label: Email, name: email, widget: string}
-
 - name: blog
   label: "Posts"
   label_singular: "Post"
