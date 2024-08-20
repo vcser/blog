@@ -7,7 +7,7 @@ export default function MyReactPage() {
             <nav id="navbar">
                 <a href="#hero">About</a>
                 <a href="#projects">Projects</a>
-                <a href="https://vcser.github.io/blog">Blog</a>
+                <a href="/blog">Blog</a>
                 <a href="#contact">Contact</a>
             </nav>
             <main>
