@@ -9,7 +9,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'vcser\'s Blog',
+  title: 'Vcser\'s Home',
   tagline: 'Escribo sobre cosas',
   favicon: 'https://avatars.githubusercontent.com/u/74830557?v=4',
 
@@ -51,11 +51,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/vcser/vcser.github.io/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -73,7 +70,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Vicente Cser\'s Blog 💻🐁',
+        title: 'Vicente Cser 💻🐁',
         logo: {
           alt: 'My Site Logo',
           src: 'https://avatars.githubusercontent.com/u/74830557?v=4',
