@@ -7,7 +7,7 @@ export default function GiscusComponent() {
 
   return (
     <Giscus    
-      repo="vcser/blog"
+      repo="vcser/vcser.github.io"
       repoId="R_kgDOL2z1NA"
       category="General"
       categoryId="DIC_kwDOL2z1NM4ChwlV"
